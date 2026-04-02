@@ -8,7 +8,7 @@
 
 In this challenge, your team will act as strategic innovation partners for a modern, fast-paced product organization seeking to leverage AI to optimize agile delivery and team performance.
 
-The organization operates using Scrum methodologies, managing multiple concurrent projects, cross-functional teams, and evolving priorities. Your role is to design and develop a **“Scrum Agent”** - an intelligent virtual assistant capable of supporting and automating key responsibilities typically handled by a Scrum Master.
+The organization operates using Scrum methodologies, managing multiple concurrent projects, cross-functional teams, and evolving priorities. Your role is to design and develop a **Scrum Agent** - an intelligent virtual assistant capable of supporting and automating key responsibilities typically handled by a Scrum Master.
 
 🎯**Objective**  
 Your mission is to create an AI-powered **Scrum Agent** that enhances sprint planning, backlog management, and team organization.
@@ -110,6 +110,7 @@ Submit you solution to your specific branch:
 
 💡 **Pro Tip:**  
 Judging includes **teamwork**, **structure**, and **communication**, not just technical quality
+
 ---
 
 ## 💬 Final Thought
