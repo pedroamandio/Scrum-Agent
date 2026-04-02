@@ -6,138 +6,119 @@
 
 ## 📊 Description
 
-In this challenge, your team will act as strategic consultants for a sophisticated **investment fund** seeking to leverage **AI** in its daily operations. The fund manages a **diverse portfolio** of 11 different stocks and cryptocurrencies. Your team can choose to focus on the entire portfolio, a strategic selection, or an in-depth analysis of a single high-value asset.
+In this challenge, your team will act as strategic innovation partners for a modern, fast-paced product organization seeking to leverage AI to optimize agile delivery and team performance.
 
-### **Objective**  
-Your mission is to create a **decision support platform** that transforms the fund's investment capabilities. Whether designing an intelligent trading agent, a sophisticated analytical dashboard, or a hybrid solution, you must demonstrate how AI can generate **tangible business value** in financial markets.
+The organization operates using Scrum methodologies, managing multiple concurrent projects, cross-functional teams, and evolving priorities. Your role is to design and develop a **“Scrum Agent”** - an intelligent virtual assistant capable of supporting and automating key responsibilities typically handled by a Scrum Master.
 
----
+🎯**Objective**  
+Your mission is to create an AI-powered **Scrum Agent** that enhances sprint planning, backlog management, and team organization.
 
-## 💡 Data
+The solution should:
+- Automatically generate **user stories and tasks** from project descriptions and timelines  
+- Assist in **sprint creation, planning, and prioritization**  
+- Allow **editing and management of sprints and tasks** dynamically  
+- Provide a **functional frontend interface** for interaction and visualization  
+- Support decision-making by aligning tasks with team capabilities and timelines  
 
-The dataset includes **historical financial data** from 11 different assets:  
-- **Stocks:** AMZN, AAPL, GOOGL, MSFT, UDMY, NXE, SPY, CDR.WA, EH  
-- **Cryptocurrencies:** BTC-USD, ETH-USD  
-
-All data is stored in `.csv` files in the `data/` directory, named based on asset and frequency (e.g., `AMZ_hourly.csv`, `AMZ_daily.csv`), with the usage of the accelerator notebook.  
-
-### Data Columns:
-- **Datetime / Date:** Timestamp of the market data entry (hourly or daily).
-- **Close:** Price at the end of the interval.
-- **High:** Highest price during the interval.
-- **Low:** Lowest price during the interval.
-- **Open:** Price at the beginning of the interval.
-- **Volume:** Number of shares/contracts/units traded.
+Whether you design a conversational assistant, a sprint management dashboard, or a hybrid solution, you must demonstrate how AI can replicate and enhance the role of a Scrum Master while delivering measurable value.
 
 ---
 
-## 🎯 Consulting Mindset Expectations
+## 📂 Data
 
-- **Strategic Advisors:** Position yourselves as trusted advisors who understand both **technology** and **financial markets**. Balance technical innovation with practical considerations.
-- **Value Architects:** Articulate how your solution creates **measurable business impact**.
-- **Sell the Solution, Not Just the Process:** Present your solution as a **valuable asset**, highlighting **business impact** and suggesting **clear next steps**.
+The dataset provided represents a realistic agile working environment and includes:
+- **Team Profiles** - Details about team members, including roles, skills, and experience levels.
+- **Project Specifications** - Well-defined project descriptions, including requirements, objectives, and constraints.
+- **Timelines** - Project schedules, milestones, deadlines, and dependencies.
+
+Participants are expected to use this data to simulate real Scrum workflows and generate structured outputs such as backlogs, user stories, tasks, and sprint plans.
+
+---
+
+## 💼 Consulting Mindset Expectations
+
+- **Agile Enablers** - Position yourselves as experts in agile methodologies who understand the practical challenges of Scrum teams.
+- **Automation Strategists** - Focus on how your Scrum Agent reduces manual effort in planning, organizing, and tracking work.
+- **User-Centric Designers** - Ensure your solution is intuitive and valuable for Scrum Masters, Product Owners, and development teams.
+- **Sell the Solution, Not Just the Process** - Demonstrate how your solution improves sprint efficiency, team alignment, and delivery outcomes.
 
 ---
 
 ## 📦 Deliverables
 
-- ✅ A **working prototype** of your AI-powered investment solution.
-- ✅ An **organized and well-documented code** that can be reproduced.
-- ✅ A **concise pitch** presenting your solution to the judging panel as **investment stakeholders**.
-- ✅ *(Optional)* **Performance analysis** comparing your solution with traditional methods.
+- ✅ A working prototype of your strategic conversational assistant
+- ✅ Organized and well-documented code, that can be reproducible
+- ✅ A strategic presentation pitching your solution to the judging panel as if they were the client's executive stakeholders
+- ✅ A technical presentation pitching your solution to the judging panel as if they were the client's IT stakeholders
+- ✅ A frontend for the solution is mandatory for the live demo of the strategic presentation
+
+🔹 **Optional Enhancements**:  
+- Performance analysis vs traditional knowledge access methods
 
 <h2 align="center"> ⚠️ **Important Submission Requirement** ⚠️ </h2>
 <h3> ✅ Before the 14h00 deadline</h3>
 
-Submit a zip folder with:
-- The **Google Colab notebook** (with all cells run & outputs shown).
-- Screenshots of all **external tools/visualizations** used.
-
-Submit via email to: [eyaichallenge@pt.ey.com](mailto:eyaichallenge@pt.ey.com)
-
-Subject: `Stock Agent – GroupName`
-
-Include group member names in the email.
+Submit you solution to your specific branch:
+- Repository with the code of the solution developed
+  - The solution must be ready to run
+- A README file with the context of the solution and how to run it
 
 ---
 
 ## 💡 Tips for Competitors
 
-- **Master the Market Data**: Dive deep into the stock and cryptocurrency data. Look for patterns, correlations, and anomalies that could inform **strategic investment decisions**.
-- **Develop a Clear Value Proposition**: Define exactly how your solution will add value—whether by **improving decision speed**, **reducing risk**, **identifying overlooked opportunities**, or **enhancing portfolio performance**.
-- **Think Like the Client**: Understand the day-to-day of **investment professionals**. What insights would improve their decisions? How can your solution seamlessly integrate into their workflow?
-- **Establish a Performance Framework**: Use metrics like **ROI**, **risk-adjusted returns**, **prediction accuracy**, and compare against market benchmarks.
-- **Embrace Innovation with Purpose**: Ensure innovations directly address the fund's business goals. Every feature should contribute to strategic value.
-- **Craft a Business Case**: When presenting, articulate not only the **technical** details but also the **financial** impact of your solution. Be ready to defend your approach.
+- **Think Like a Scrum Master** - Understand responsibilities such as backlog refinement, sprint planning, prioritization, and team coordination.
+- **Use Data Intelligently** - Match tasks to team skills, consider dependencies, and ensure realistic workload distribution.
+- **Build a Clear Value Proposition** - Explain how your assistant improves planning speed, reduces friction, or increases delivery predictability.
+- **Design for Adaptability** - Sprints evolve - your solution should allow easy updates, re-prioritization, and continuous iteration.
+- **Prioritize the Frontend Experience** - A functional frontend is mandatory. Focus on usability, clarity, and real-world applicability.
 
 ---
 
-## 🛠 Tech & Tools
+## 🛠️ Tech & Tools
 
-🚨 **Mandatory Requirement**:  
-You **must** develop your solution in **Google Colab using Python**.
+- **Mandatory:**  
+  - Solution must be developed mainly using Python  
+  - You'll publish the solution into a specific branch of the challenge's repository
 
-Beyond that, you are **completely free** to choose your own:
-
-- **📚 Libraries and packages**  
-  Use any tools you need — e.g., `Pandas`, `Scikit-learn`, `LangChain`, etc.
-
-- **📈 Visualization tools**  
-  Python-based: `Matplotlib`, `Seaborn`  
-  BI tools: `Power BI`, `Tableau`
-
-- **🤖 AI assistants**  
-  Feel free to consult:  
-  `ChatGPT`, `GitHub Copilot`, `Gemini`, or any other
+- **Free to Choose:**  
+  - Libraries/Packages
+  - Visualization
+  - Frontend solution
+  - AI Assistants
 
 ---
 
-## ⏱ Time Management & Rules
+## ⏱️ Time Management & Rules
 
-- ⏳ You have **4 hours total** to complete your challenge  
-  🔒 **No extensions** will be allowed
-
-- 🗣 After the working session, deliver a **5-minute presentation**  
-  🎯 Simulate a **client-facing consulting pitch**
-
-- 👥 Each group is allowed:
-  - `1` **technical support** session (up to 5 minutes)
-  - `1` **business-related support** session (up to 5 minutes)
-
-> 🧠 Assistants will guide your thinking, not provide direct solutions
+- Total Time: **4 hours** – No extensions  
+- Final Presentations: **5 minutes each** – Simulate a client-facing pitch
+  - You must divide the team for the strategic and technical presentations
+- Support:
+  - 🧑‍💻 1 technical session (max 5 minutes)  
+  - 💼 1 business session (max 5 minutes)  
+  - **Note:** Assistants guide only — no direct solutions
 
 ---
 
 ## 📋 Strategy & Workflow Tips
 
-This is a **consulting-style challenge** with limited time. Keep these tips in mind:
+1. **Assign Roles Early** — e.g., data analyst, business strategist, presenter  
+2. **Work in Parallel** — Divide and conquer  
+3. **Start the Presentation Early** — Don’t wait until the last 10 minutes  
+4. **Be Realistic** — Focused and clear beats complex and incomplete  
 
-1. 👥 **Assign roles early**  
-   (e.g., a data person, a business analyst, and a presenter)
-
-2. 🔁 **Work in parallel**  
-   Don’t wait on each other. Split tasks and collaborate strategically.
-
-3. 🧑‍🏫 **Keep the presentation in mind**  
-   Start preparing early; don’t leave it to the last 10 minutes.
-
-4. ✅ **Be realistic**  
-   It’s better to deliver a **focused, clear, and well-explained solution** than a rushed or overly complex one.
-
-> 💡 You are not being judged only on technical accuracy —  
-> but also on how you **think**, **structure**, **work as a team**, and **communicate** your approach.
-
+💡 **Pro Tip:**  
+Judging includes **teamwork**, **structure**, and **communication**, not just technical quality
 ---
 
 ## 💬 Final Thought
 
-This challenge invites you to bridge the worlds of **cutting-edge AI technology** and **sophisticated financial strategy**.
+This challenge invites you to reimagine the role of a Scrum Master through the power of AI.
 
-🏆 The most successful teams will demonstrate not just technical prowess,  
-but the ability to **translate that technology into meaningful business advantage**.
+🏆 The most successful teams will combine technical excellence with a deep understanding of agile workflows and team dynamics.
 
-> You are developing more than just a tool –  
-> you are creating a **strategic asset** that could fundamentally enhance how investment decisions are made.
+You are building more than just a tool — you are creating a **Scrum Agent** that can transform how teams plan, prioritize and deliver their work.
 
 ---
 
