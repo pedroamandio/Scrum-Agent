@@ -28,8 +28,7 @@ Whether you design a conversational assistant, a sprint management dashboard, or
 
 The dataset provided represents a realistic agile working environment and includes:
 - **Team Profiles** - Details about team members, including roles, skills, and experience levels.
-- **Project Specifications** - Well-defined project descriptions, including requirements, objectives, and constraints.
-- **Timelines** - Project schedules, milestones, deadlines, and dependencies.
+- **Project Specifications** - Well-defined project descriptions, including objectives, requirements, deadlines, milestones and dependencies.
 
 Participants are expected to use this data to simulate real Scrum workflows and generate structured outputs such as backlogs, user stories, tasks, and sprint plans.
 
